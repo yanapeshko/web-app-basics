@@ -4,7 +4,7 @@ img {
   height: auto;
 }
 
-/* Компонент section */
+/* section component */
 .section {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -17,7 +17,7 @@ img {
   color: #fff;
 }
 
-/* Компонент container */
+/* container component */
 .container {
   max-width: 1140px;
   padding-left: 15px;
@@ -26,7 +26,7 @@ img {
   margin-left: auto;
 }
 
-/* Компонент grid */
+/* grid component */
 .grid {
   list-style: none;
   padding: 0;
@@ -40,14 +40,14 @@ img {
 }
 
 .grid__item {
-  flex-basis: calc((100% - 6 * 8px) / 3);
+  flex-basis: calc(100% / 3 - 16px);
   min-width: 240px;
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 16px;
 }
 
-/* Компонент product */
+/* product component */
 .product {
   position: relative;
   padding: 16px;
@@ -72,7 +72,7 @@ img {
   right: 5px;
 }
 
-/* Компонент button */
+/* button component */
 .button {
   display: inline-flex;
   flex-shrink: 0;
@@ -89,12 +89,6 @@ img {
 
 .button__icon {
   display: inline-flex;
-  width: 20px;
-  height: 20px;
-  background-image: url('https://www.flaticon.com/svg/static/icons/svg/891/891462.svg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .button__icon--start {

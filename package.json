@@ -1,28 +1,27 @@
 {
   "name": "web-app-basics",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Alex Slepchenkov - JAMstack и с чем его едят](https://youtu.be/b1ZnAmIXXAQ)\r - [A Step By Step Guide To Using Handlebars With Your Node js App](https://medium.com/@waelyasmina/a-guide-into-using-handlebars-with-your-express-js-application-22b944443b65)\r - [expressjs.com](https://expressjs.com/)\r - [Deploying with Git](https://devcenter.heroku.com/articles/git#prerequisites-install-git-and-the-heroku-cli)",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/web-app-basics.git"
+    "url": "git+https://github.com/yanapeshko/web-app-basics.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luxplanjay/web-app-basics/issues"
+    "url": "https://github.com/yanapeshko/web-app-basics/issues"
   },
-  "homepage": "https://github.com/luxplanjay/web-app-basics#readme",
+  "homepage": "https://github.com/yanapeshko/web-app-basics#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0"
+    "express-handlebars": "^5.3.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.12"
   }
 }
